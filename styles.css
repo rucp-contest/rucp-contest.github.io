@@ -305,3 +305,18 @@ section {
         font-size: 1.3em;
     }
 }
+
+.floating-contact {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 0.9em;
+}
+
+.floating-contact p {
+    margin: 0;
+}
