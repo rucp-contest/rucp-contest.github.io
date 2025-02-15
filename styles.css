@@ -235,11 +235,6 @@ section {
         padding: 10px 0;
         width: 100%;
         text-align: center;
-        border-bottom: 1px solid #0a2547;
-    }
-
-    nav li:last-child {
-        border-bottom: none;
     }
 
     /* Location card */
