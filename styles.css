@@ -275,12 +275,19 @@ section {
     /* Author card */
     .author-card {
         flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .author-card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .location img {
         width: 100%;
-        height: 200px;
-        margin-bottom: 15px;
+        max-width: 300px;
+        height: auto;
     }
 
     /* Updates notice */
