@@ -327,3 +327,22 @@ section {
 .floating-contact p {
     margin: 0;
 }
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sponsor-table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sponsor-table img {
+    max-width: 75%;
+    height: auto;
+}
