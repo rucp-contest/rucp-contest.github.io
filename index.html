@@ -1,71 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rutgers Programming Contest</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rutgers Programming Contest</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="past-contests.html">Past Contests</a></li>
-            <li><a href="sponsors.html">Sponsors</a></li>
-            <li><a href="signup.html">Sign Up</a></li>
-        </ul>
-    </nav>
+<body class="page-home">
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="past-contests.html">Past Contests</a></li>
+			<li><a href="sponsors.html">Sponsors</a></li>
+			<li><a href="signup.html">Sign Up</a></li>
+		</ul>
+	</nav>
 <!--     <div class="Announcement">
-        <h2 style = "color: red; text-align: center">In-Person Registration is Now Closed.<br>See you all on Sunday!</h2>
-    </div> -->
-    <section id="landing">
-        <div class="welcome-text">
-            <h1>Rutgers Programming Contest Fall 2025</h1>
-            <p>A 5-hour ICPC-style programming competition for teams of three.</p>
-        </div>
-        
-        <div class="event-details">
-            <div class="location">
-                <div>
-                    <h2>Location</h2>
-                    <p>Hill Center, Room 705</p>
-                    <p>110 Frelingheysen Road</p>
-                    <p>Piscataway, NJ 08854</p>
-                </div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Rutgers_University_Hill_Center_courtyard_mathematics_buildings.JPG" 
-                     alt="Hill Center For Mathematical Sciences Building">
-            </div>
+		<h2 style = "color: red; text-align: center">In-Person Registration is Now Closed.<br>See you all on Sunday!</h2>
+	</div> -->
+	<section id="landing">
+		<div class="hero">
+			<div class="welcome-text">
+				<h1>Rutgers Programming Contest</h1>
+				<p class="hero-subtitle">Spring 2026</p>
+				<p>A 5-hour ICPC-style programming competition for teams of three.</p>
+			</div>
+			<p class="hero-date">April 2026 (date TBA)</p>
+			<button class="cta-link hero-cta cta-disabled" type="button" disabled>Sign Up (coming soon)</button>
+			<p class="scroll-hint">Scroll for location, schedule, and updates.</p>
+		</div>
 
-            <div class="schedule">
-                <h2>Schedule of Events - Sunday, November 23rd, 2025</h2>
-                <table>
-                    <tr>
-                        <td>Registration & Lunch</td>
-                        <td>11:00 AM - 12:00 PM</td>
-                    </tr>
-                    <tr>
-                        <td>Opening Ceremony</td>
-                        <td>12:00 PM - 12:45 PM</td>
-                    </tr>
-                    <tr>
-                        <td>Competition</td>
-                        <td>1:00 PM - 6:00 PM</td>
-                    </tr>
-                    <tr>
-                        <td>Closing Ceremony</td>
-                        <td>6:00 PM - 6:45 PM</td>
-                    </tr>
-                </table>
-            </div>
+		<div class="hero-media">
+			<img src="images/contest/hero.jpg" alt="Contest participants solving problems in a lecture hall">
+		</div>
+		
+		<div class="gallery-strip">
+			<img src="images/contest/gallery-1.jpg" alt="Team of students working at a round table by large windows">
+			<img src="images/contest/gallery-2.jpg" alt="Wide view of contest teams working at tables in a classroom">
+			<img src="images/contest/gallery-3.jpg" alt="Contest audience applauding during the event">
+		</div>
+
+		<div class="faq-section">
+			<div class="faq-header">
+				<h2>FAQ</h2>
+			</div>
+			<div class="faq-grid">
+				<details>
+					<summary>
+						Do I need a full team of three to sign up?
+					</summary>
+					<p>
+						No. You can register with fewer than three people, and
+						we can help match you with other participants, or you
+						choose to participate with solo or as a team of two.
+					</p>
+				</details>
+				<details>
+					<summary>
+						What should we bring on contest day?
+					</summary>
+					<p>
+						Bring one laptop and charger per team.
+					</p>
+				</details>
+				<details>
+					<summary>
+						Which programming languages are allowed?
+					</summary>
+					<p>
+						Any language supported by Codeforces is allowed
+						(C++, Java, Python, and more). See the full list
+						<a href="https://codeforces.com/blog/entry/121114">here</a>.
+					</p>
+				</details>
+				<details>
+					<summary>
+						How does scoring work?
+					</summary>
+					<p>
+						Teams are ranked by problems solved. Ties are broken by
+						total time: the sum of submission times (in minutes)
+						plus a 20-minute penalty for each incorrect submission
+						on a problem that is eventually solved.
+					</p>
+				</details>
+				<details>
+					<summary>
+						I still have more questions!
+					</summary>
+					<p>
+						Email us at <a href="mailto:nick.belov@rutgers.edu">nick.belov@rutgers.edu</a>.
+					</p>
+				</details>
+			</div>
+		</div>
+
+		<div class="event-details">
+			<div class="location">
+				<div>
+					<h2>Location</h2>
+					<p>Hill Center, Room 705</p>
+					<p>110 Frelingheysen Road</p>
+					<p>Piscataway, NJ 08854</p>
+				</div>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Rutgers_University_Hill_Center_courtyard_mathematics_buildings.JPG" 
+					 alt="Hill Center For Mathematical Sciences Building">
+			</div>
+
+			<div class="schedule">
+				<h2>Schedule of Events - April 2026 (date TBA)</h2>
+				<table>
+					<tr>
+						<td>Registration & Lunch</td>
+						<td>11:00 AM - 12:00 PM</td>
+					</tr>
+					<tr>
+						<td>Opening Ceremony</td>
+						<td>12:00 PM - 12:45 PM</td>
+					</tr>
+					<tr>
+						<td>Competition</td>
+						<td>1:00 PM - 6:00 PM</td>
+					</tr>
+					<tr>
+						<td>Closing Ceremony</td>
+						<td>6:00 PM - 6:45 PM</td>
+					</tr>
+				</table>
+			</div>
 
 
-            
-        </div>
+			
+		</div>
 
-        <div class="updates-notice">
-            <p>Join our <a href="https://discord.gg/8FFPUr2ESP" target="_blank">Discord server</a> for contest updates and announcements!</p>
-        </div>
-    </section>
+		<div class="updates-notice">
+			<p>Join our <a class="cta-link" href="https://discord.gg/8FFPUr2ESP" target="_blank">Discord server</a> for contest updates and announcements!</p>
+		</div>
+	</section>
+	<script>
+		const faqItems = document.querySelectorAll(".faq-grid details");
+		faqItems.forEach((item) => {
+			item.addEventListener("toggle", () => {
+				if (!item.open) {
+					return;
+				}
+				faqItems.forEach((other) => {
+					if (other !== item) {
+						other.open = false;
+					}
+				});
+			});
+		});
+	</script>
 </body>
 </html>

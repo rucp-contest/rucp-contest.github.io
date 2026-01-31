@@ -1,110 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Rutgers Programming Contest</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About - Rutgers Programming Contest</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="past-contests.html">Past Contests</a></li>
-            <li><a href="sponsors.html">Sponsors</a></li>
-            <li><a href="signup.html">Sign Up</a></li>
-        </ul>
-    </nav>
+<body class="page-about">
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="past-contests.html">Past Contests</a></li>
+			<li><a href="sponsors.html">Sponsors</a></li>
+			<li><a href="signup.html">Sign Up</a></li>
+		</ul>
+	</nav>
 
-    <section id="about">
-        
-        <div class="info-block">
-            <h2>Contest Structure</h2>
-            <h3>ICPC-Style Format</h3>
-            <p>Teams of three students will collaborate on a single computer to solve algorithmic programming problems. While we allow open internet access for documentation and reference, communication with anyone outside your team is strictly prohibited during the contest.</p>
-            
-            <h3>Problem Format</h3>
-            <p>Contestants will tackle 12-15 problems of varying difficulty. Each problem includes:</p>
-            <ul>
-                <li>Problem description with background story</li>
-                <li>Input/output format specification</li>
-                <li>Constraints on input size and values</li>
-                <li>Sample test cases with explanations</li>
-                <li>Hidden test cases used for judging</li>
-            </ul>
-            
-            <h3>Judging</h3>
-            <p>Solutions are submitted to an automated judge (codeforces) that runs your code against a set of test cases. Your program must solve all test cases correctly within the time limit to receive points. Teams are ranked first by number of problems solved, then by total time taken (including penalty time for incorrect submissions).</p>
-        </div>
+	<section id="about">
+		
+		<div class="info-block">
+			<h2>Contest Structure</h2>
+			<h3>ICPC-Style Format</h3>
+			<p>Teams of three students will collaborate on a single computer to solve algorithmic programming problems. While we allow open internet access for documentation and reference, communication with anyone outside your team is strictly prohibited during the contest.</p>
+			
+			<h3>Problem Format</h3>
+			<p>Contestants will tackle 12-15 problems of varying difficulty. Each problem includes:</p>
+			<ul>
+				<li>Problem description with background story</li>
+				<li>Input/output format specification</li>
+				<li>Constraints on input size and values</li>
+				<li>Sample test cases with explanations</li>
+				<li>Hidden test cases used for judging</li>
+			</ul>
+			
+			<h3>Judging</h3>
+			<p>Solutions are submitted to an automated judge (Codeforces) that runs your code against a set of test cases. Your program must solve all test cases correctly within the time limit to receive points. Teams are ranked first by number of problems solved, then by total time taken (including penalty time for incorrect submissions).</p>
+		</div>
 
-        <div class="info-block">
-            <h2>Rutgers Competitive Programming Club (RUCP)</h2>
-            <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
-                <p>We are the competitive programming club at Rutgers University and the organizers of this contest. Our club is dedicated to fostering problem-solving skills and algorithmic thinking through programming competitions.</p>
-                <img src="logo.png" alt="RUCP Logo" style="width: 100px; height: 100px; object-fit: contain;">
-            </div>
-            
-            <p>Throughout the semester, we host:</p>
-            <ul>
-                <li>Educational lectures on competitive programming topics</li>
-                <li>Practice contests and problem-solving sessions</li>
-                <li>Team practice for competitions</li>
-            </ul>
-            
-            <p>Our members regularly compete in programming competitions including:</p>
-            <ul>
-                <li>International Collegiate Programming Contest (ICPC)</li>
-                <li>MIT Informatics Tournament (MITIT)</li>
-            </ul>
+		<div class="info-block">
+			<h2>Rutgers Competitive Programming Club (RUCP)</h2>
+			<div class="club-row">
+				<p>We are the competitive programming club at Rutgers University and the organizers of this contest. Our club is dedicated to fostering problem-solving skills and algorithmic thinking through programming competitions.</p>
+				<img src="images/logo.png" alt="RUCP Logo" style="width: 100px; height: 100px; object-fit: contain;">
+			</div>
+			
+			<p>Throughout the semester, we host:</p>
+			<ul>
+				<li>Educational lectures on competitive programming topics</li>
+				<li>Practice contests and problem-solving sessions</li>
+				<li>Team practice for competitions</li>
+			</ul>
+			
+			<p>Our members regularly compete in programming competitions including:</p>
+			<ul>
+				<li>International Collegiate Programming Contest (ICPC)</li>
+				<li>MIT Informatics Tournament (MITIT)</li>
+			</ul>
 
-            <p>We're a community of students who love problem solving and having fun! Join our <a href="https://discord.gg/8FFPUr2ESP" target="_blank">Discord server</a> to say hi :3</p>
-        </div>
-        <h2>Authors</h2>
-            <div class="author-card">
-                <img src="segtree.png" 
-                     alt="Thomas Yang">
-                <div class="author-info">
-                    <h3>Thomas Yang</h3>
-                    <p>Rutgers CS Grad '24, Codeforces Master, 2x ICPC World Finalist. Enjoys knitting</p>
-                </div>
-            </div>
+			<p>We&rsquo;re a community of students who love problem solving and having fun! Join our <a href="https://discord.gg/8FFPUr2ESP" target="_blank">Discord server</a> to say hi :3</p>
+		</div>
+		<h2>Contest Organizers</h2>
+			<div class="organizers-grid">
+			<div class="author-card">
+				<img src="images/author/thomas-yang.png" 
+					 alt="Thomas Yang">
+				<div class="author-info">
+					<h3>Thomas Yang</h3>
+					<span class="role-badge role-problemsetter">Problemsetter</span>
+					<p>Rutgers CS Grad &rsquo;24. Codeforces Master and 2x ICPC World Finalist. Enjoys Darwinian metaphysics and reads Carnap, Feyerabend, and Richard Rorty.</p>
+				</div>
+			</div>
 
-            <div class="author-card">
-                <img src="nickpfp.png" 
-                     alt="Nick Belov">
-                <div class="author-info">
-                    <h3>Nick Belov</h3>
-                    <p>Math & CS Senior at Rutgers. 2x ICPC World Finalist and Codeforces Master. Former president of RUCP. Very amateur bee keeper</p>
-                </div>
-            </div>
+			<div class="author-card">
+				<img src="images/author/nick-belov.png" 
+					 alt="Nick Belov">
+				<div class="author-info">
+					<h3>Nick Belov</h3>
+					<span class="role-badge role-problemsetter">Problemsetter</span>
+					<p>Rutgers Math & CS Grad &rsquo;25. Codeforces Master and 2x ICPC World Finalist. Former RUCP president. Very amateur beekeeper.</p>
+				</div>
+			</div>
 
-            <div class="author-card">
-                <img src="jduriepfp.png" 
-                     alt="Joseph Durie">
-                <div class="author-info">
-                    <h3>Joseph Durie</h3>
-                    <p>Rutgers Math & CS Grad '22. Current Amazon SWE, ICPC World Finalist and Codeforces Grandmaster. Former RUCP president</p>
-                </div>
-            </div>
-            <div class="author-card">
-                <img src="scalarpfp.jpg" 
-                     alt="Rajat Peddinti">
-                <div class="author-info">
-                    <h3>Rajat Peddinti</h3>
-                    <p>Rutgers Math & CS Grad '24, Math enthusiast and current SWE at Bloomberg. Also known as "ScalarField"</p>
-                </div>
-            </div>
-            <div class="author-card">
-                <img src="nadyanforest.jpg" 
-                     alt="Nadya Belova">
-                <div class="author-info">
-                    <h3>Nadya Belova</h3>
-                    <p>Math Senior at Rutgers. Former vice president of RUCP. Lover of algebraic topology</p>
-                </div>
-            </div>
-    </section>
+			<div class="author-card">
+				<img src="images/author/joseph-durie.png" 
+					 alt="Joseph Durie">
+				<div class="author-info">
+					<h3>Joseph Durie</h3>
+					<span class="role-badge role-problemsetter">Problemsetter</span>
+					<p>Rutgers Math & CS Grad &rsquo;22. Former Amazon SWE. Codeforces Grandmaster and ICPC World Finalist. Former RUCP president.</p>
+				</div>
+			</div>
+			<!-- <div class="author-card">
+				<img src="images/author/rajat-peddinti.jpg" 
+					 alt="Rajat Peddinti">
+				<div class="author-info">
+					<h3>Rajat Peddinti</h3>
+					<span class="role-badge role-problemsetter">Problemsetter</span>
+					<p>Rutgers Math & CS Grad &rsquo;24. Math enthusiast and current SWE at Bloomberg. Also known as &ldquo;ScalarField&rdquo;.</p>
+				</div>
+			</div> -->
+			<div class="author-card">
+				<img src="images/author/nadya-belova.jpg" 
+					 alt="Nadya Belova">
+				<div class="author-info">
+					<h3>Nadya Belova</h3>
+					<span class="role-badge role-problemsetter">Problemsetter</span>
+					<p>Rutgers Math Grad &rsquo;25. Former RUCP vice president. Lover of algebraic topology.</p>
+				</div>
+			</div>
+			<div class="author-card">
+				<img src="images/author/matt-klosin.jpg" 
+					 alt="Matt Klosin">
+				<div class="author-info">
+					<h3>Matt Klosin</h3>
+					<span class="role-badge role-problemsetter">Problemsetter</span>
+					<p>Math & CS Sophomore at Rutgers. ICPC World Finalist. RUCP vice president. Enjoys crochet.</p>
+				</div>
+			</div>
+			<div class="author-card">
+				<img src="images/author/timothy-wu.jpg" 
+					 alt="Timothy Wu">
+				<div class="author-info">
+					<h3>Timothy Wu</h3>
+					<span class="role-badge role-problemsetter">Problemsetter</span>
+					<p>Math & CS Sophomore at Rutgers. Codeforces Candidate Master and math enthusiast. Also known as &ldquo;Snowythecat&rdquo;.</p>
+				</div>
+			</div>
+			<!-- <div class="author-card">
+				<img src="images/author/maxwell-goldberg.jpg" 
+					 alt="Maxwell Goldberg">
+				<div class="author-info">
+					<h3>Maxwell Goldberg</h3>
+					<span class="role-badge role-problemsetter">Problemsetter</span>
+					<p>Bio coming soon.</p>
+				</div>
+			</div> -->
+			<!-- <div class="author-card">
+				<img src="images/author/daniel-baumgartner.jpg" 
+					 alt="Daniel Baumgartner">
+				<div class="author-info">
+					<h3>Daniel Baumgartner</h3>
+					<span class="role-badge role-problemsetter">Problemsetter</span>
+					<p>Rutgers Math & CS & Stat Grad &rsquo;25. Current Rutgers graduate student. Former RUCP president.</p>
+				</div>
+			</div> -->
+			<!-- <div class="author-card">
+				<img src="images/author/andy-chang.jpg" 
+					 alt="Andy Chang">
+				<div class="author-info">
+					<h3>Andy Chang</h3>
+					<span class="role-badge role-logistics">Logistics</span>
+					<p>Rutgers Math & CS Junior. Codeforces Expert. RUCP treasurer. Battle Cats enthusiast.</p>
+				</div>
+			</div> -->
+			</div>
+	</section>
 
-    <p style="text-align: center; margin: 20px 0; font-size: 1em; color: #2c3e50;">Contact Us: nick.belov [at] rutgers.edu</p>
+	<p style="text-align: center; margin: 20px 0; font-size: 1em; color: #2c3e50;">Contact Us: nick.belov [at] rutgers.edu</p>
 </body>
 </html> 
