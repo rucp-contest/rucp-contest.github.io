@@ -631,7 +631,24 @@ a:hover {
 	}
 
 	.sponsor-table {
-		border-spacing: 14px;
+		border-spacing: 10px;
+		width: 100%;
+	}
+
+	.sponsor-table,
+	.sponsor-table tbody,
+	.sponsor-table tr,
+	.sponsor-table td {
+		display: block;
+	}
+
+	.sponsor-table tr {
+		margin-bottom: 12px;
+	}
+
+	.sponsor-table td {
+		width: 100%;
+		margin-bottom: 12px;
 	}
 }
 
