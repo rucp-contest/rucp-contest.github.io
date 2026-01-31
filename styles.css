@@ -91,7 +91,7 @@ nav a:hover {
 	color: var(--accent);
 }
 
-.page-home nav a[href="index.html"],
+.page-home nav a[href="/"],
 .page-about nav a[href="about.html"],
 .page-past nav a[href="past-contests.html"],
 .page-sponsors nav a[href="sponsors.html"],
