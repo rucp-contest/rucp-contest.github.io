@@ -543,6 +543,7 @@ a:hover {
 
 .sponsor-table {
 	width: 100%;
+	table-layout: fixed;
 	border-collapse: separate;
 	border-spacing: 20px;
 }
@@ -550,15 +551,25 @@ a:hover {
 .sponsor-table td {
 	padding: 16px;
 	text-align: center;
+	vertical-align: middle;
 	background: #fffdf8;
 	border-radius: var(--radius-sm);
 	border: 1px solid rgba(26, 42, 58, 0.08);
+}
+
+.sponsor-table .sponsor-featured {
+	padding: 30px;
 }
 
 .sponsor-table img {
 	max-width: 180px;
 	margin: 0 auto;
 	filter: saturate(1.05);
+}
+
+.sponsor-table img.sponsor-logo-wide {
+	width: 100%;
+	max-width: 320px;
 }
 
 .floating-contact {
