@@ -1,169 +1,206 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Rutgers Programming Contest</title>
-	<link rel="stylesheet" href="styles.css">
-</head>
-<body class="page-home">
-	<nav>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="past-contests.html">Past Contests</a></li>
-			<li><a href="sponsors.html">Sponsors</a></li>
-			<li><a href="https://forms.gle/z1MaifLgqZ2CvjQC7">Sign Up</a></li>
-		</ul>
-	</nav>
-<!--     <div class="Announcement">
-		<h2 style = "color: red; text-align: center">In-Person Registration is Now Closed.<br>See you all on Sunday!</h2>
-	</div> -->
-	<section id="landing">
-		<div class="hero">
-			<div class="welcome-text">
-				<h1>Rutgers Programming Contest</h1>
-				<p class="hero-subtitle">Fall 2026</p>
-				<p>A 5-hour ICPC-style programming competition for teams of three.</p>
-			</div>
-			<p class="hero-date">Sunday, October 25th, 2026</p>
-			<a class="cta-link hero-cta" href="https://forms.gle/z1MaifLgqZ2CvjQC7">Sign Up</a>
-			<p class="scroll-hint">Scroll for location, schedule, and contest updates.</p>
-		</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rutgers Programming Contest</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-home">
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="past-contests.html">Past Contests</a></li>
+        <li><a href="sponsors.html">Sponsors</a></li>
+        <li><a href="https://forms.gle/z1MaifLgqZ2CvjQC7">Sign Up</a></li>
+      </ul>
+    </nav>
+    <aside class="contest-banner" aria-label="Contest access and support">
+      <div class="contest-banner-content">
+        <p>
+          You can access the contest at
+          <a href="https://judge.rucp.org">judge.rucp.org</a>.
+        </p>
+        <p>
+          All <strong>online</strong> teams have been sent their contest login
+          details via email. <strong>In-person</strong> teams will receive their
+          login details at the venue on contest day.
+        </p>
+        <p>
+          If you need help accessing the contest, using the judge, or resolving
+          any other issues, please contact us in one of the following ways:
+        </p>
+        <ol>
+          <li>Submit a clarification request through the judge (preferred).</li>
+          <li>
+            Contact us on <a href="https://discord.gg/8FFPUr2ESP">Discord</a>.
+          </li>
+          <li>Email <a href="mailto:contest@rucp.org">contest@rucp.org</a>.</li>
+        </ol>
+        <p>
+          If you want to participate and forgot to sign up, please sign up ASAP.
+        </p>
+      </div>
+    </aside>
+    <section id="landing">
+      <div class="hero">
+        <div class="welcome-text">
+          <h1>Rutgers Programming Contest</h1>
+          <p class="hero-subtitle">Fall 2026</p>
+          <p>A 5-hour ICPC-style programming competition for teams of three.</p>
+        </div>
+        <p class="hero-date">Sunday, October 25th, 2026</p>
+        <a class="cta-link hero-cta" href="https://forms.gle/z1MaifLgqZ2CvjQC7"
+          >Sign Up</a
+        >
+        <p class="scroll-hint">
+          Scroll for location, schedule, and contest updates.
+        </p>
+      </div>
 
-		<div class="hero-media">
-			<img src="images/contest/hero.jpg" alt="Contest participants solving problems in a lecture hall">
-		</div>
-		
-		<div class="gallery-strip">
-			<img src="images/contest/gallery-1.jpg" alt="Team of students working at a round table by large windows">
-			<img src="images/contest/gallery-2.jpg" alt="Wide view of contest teams working at tables in a classroom">
-			<img src="images/contest/gallery-3.jpg" alt="Contest audience applauding during the event">
-		</div>
+      <div class="hero-media">
+        <img
+          src="images/contest/hero.jpg"
+          alt="Contest participants solving problems in a lecture hall"
+        />
+      </div>
 
-		<div class="faq-section">
-			<div class="faq-header">
-				<h2>FAQ</h2>
-			</div>
-			<div class="faq-grid">
-				<details>
-					<summary>
-						How do prizes work?
-					</summary>
-					<p>
-						The top three in-person teams made up entirely of students from <strong>any</strong> university will receive cash prizes:
-					</p>
-					<p><strong>1st Place</strong> &mdash; $2,000</p>
-					<p><strong>2nd Place</strong> &mdash; $1,000</p>
-					<p><strong>3rd Place</strong> &mdash; $500</p>
-					<p>Additional smaller prizes will be available to all in-person participants.</p>
-				</details>
-				<details>
-					<summary>
-						Do I need a full team of three to sign up?
-					</summary>
-					<p>
-						No. You can choose to participate solo or as a team of
-						two, or <strong>in-person participants</strong> can ask
-						to be matched with other contestants. There will not be
-						team matching for online contestants, but you are free
-						to look for teammates in our Discord!
-					</p>
-				</details>
-				<details>
-					<summary>
-						What should we bring on contest day?
-					</summary>
-					<p>
-						Bring one laptop and charger per team.
-					</p>
-				</details>
-				<details>
-					<summary>
-						Which programming languages are allowed?
-					</summary>
-					<p>
-						C, C++, Java, and Python
-					</p>
-				</details>
-				<details>
-					<summary>
-						How does scoring work?
-					</summary>
-					<p>
-						Teams are ranked by problems solved. Ties are broken by
-						total time: the sum of submission times (in minutes)
-						plus a 20-minute penalty for each incorrect submission
-						on a problem that is eventually solved.
-					</p>
-				</details>
-				<details>
-					<summary>
-						I still have more questions!
-					</summary>
-					<p>
-						Email us at <a href="mailto:contest@rucp.org">contest@rucp.org</a>.
-					</p>
-				</details>
-			</div>
-		</div>
+      <div class="gallery-strip">
+        <img
+          src="images/contest/gallery-1.jpg"
+          alt="Team of students working at a round table by large windows"
+        />
+        <img
+          src="images/contest/gallery-2.jpg"
+          alt="Wide view of contest teams working at tables in a classroom"
+        />
+        <img
+          src="images/contest/gallery-3.jpg"
+          alt="Contest audience applauding during the event"
+        />
+      </div>
 
-		<div class="event-details">
-			<div class="location">
-				<div>
-					<h2>Location</h2>
-					<p>Hill Center, Room 705</p>
-					<p>110 Frelingheysen Road</p>
-					<p>Piscataway, NJ 08854</p>
-				</div>
-				<img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Rutgers_University_Hill_Center_courtyard_mathematics_buildings.JPG"
-					 alt="Hill Center For Mathematical Sciences Building">
-			</div>
+      <div class="faq-section">
+        <div class="faq-header">
+          <h2>FAQ</h2>
+        </div>
+        <div class="faq-grid">
+          <details>
+            <summary>How do prizes work?</summary>
+            <p>
+              The top three in-person teams made up entirely of students from
+              <strong>any</strong> university will receive cash prizes:
+            </p>
+            <p><strong>1st Place</strong> &mdash; $2,000</p>
+            <p><strong>2nd Place</strong> &mdash; $1,000</p>
+            <p><strong>3rd Place</strong> &mdash; $500</p>
+            <p>
+              Additional smaller prizes will be available to all in-person
+              participants.
+            </p>
+          </details>
+          <details>
+            <summary>Do I need a full team of three to sign up?</summary>
+            <p>
+              No. You can choose to participate solo or as a team of two, or
+              <strong>in-person participants</strong> can ask to be matched with
+              other contestants. There will not be team matching for online
+              contestants, but you are free to look for teammates in our
+              Discord!
+            </p>
+          </details>
+          <details>
+            <summary>What should we bring on contest day?</summary>
+            <p>Bring one laptop and charger per team.</p>
+          </details>
+          <details>
+            <summary>Which programming languages are allowed?</summary>
+            <p>C, C++, Java, and Python</p>
+          </details>
+          <details>
+            <summary>How does scoring work?</summary>
+            <p>
+              Teams are ranked by problems solved. Ties are broken by total
+              time: the sum of submission times (in minutes) plus a 20-minute
+              penalty for each incorrect submission on a problem that is
+              eventually solved.
+            </p>
+          </details>
+          <details>
+            <summary>I still have more questions!</summary>
+            <p>
+              Email us at
+              <a href="mailto:contest@rucp.org">contest@rucp.org</a>.
+            </p>
+          </details>
+        </div>
+      </div>
 
-			<div class="schedule">
-				<h2>Schedule - Sunday, October 25th, 2026</h2>
-				<table>
-					<tr>
-						<td>Registration, Lunch, and Career Table</td>
-						<td>11:00 AM - 12:00 PM</td>
-					</tr>
-					<tr>
-						<td>Opening Ceremony</td>
-						<td>12:00 PM - 12:45 PM</td>
-					</tr>
-					<tr>
-						<td>Competition</td>
-						<td>1:00 PM - 6:00 PM</td>
-					</tr>
-					<tr>
-						<td>Closing Ceremony</td>
-						<td>6:00 PM - 6:45 PM</td>
-					</tr>
-				</table>
-			</div>
+      <div class="event-details">
+        <div class="location">
+          <div>
+            <h2>Location</h2>
+            <p>Hill Center, Room 705</p>
+            <p>110 Frelingheysen Road</p>
+            <p>Piscataway, NJ 08854</p>
+          </div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Rutgers_University_Hill_Center_courtyard_mathematics_buildings.JPG"
+            alt="Hill Center For Mathematical Sciences Building"
+          />
+        </div>
 
+        <div class="schedule">
+          <h2>Schedule - Sunday, October 25th, 2026</h2>
+          <table>
+            <tr>
+              <td>Registration, Lunch, and Career Table</td>
+              <td>11:00 AM - 12:00 PM</td>
+            </tr>
+            <tr>
+              <td>Opening Ceremony</td>
+              <td>12:00 PM - 12:45 PM</td>
+            </tr>
+            <tr>
+              <td>Competition</td>
+              <td>1:00 PM - 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>Closing Ceremony</td>
+              <td>6:00 PM - 6:45 PM</td>
+            </tr>
+          </table>
+        </div>
+      </div>
 
-			
-		</div>
-
-		<div class="updates-notice">
-			<p>Join our <a class="cta-link" href="https://discord.gg/8FFPUr2ESP" target="_blank">Discord server</a> for announcements.</p>
-		</div>
-	</section>
-	<script>
-		const faqItems = document.querySelectorAll(".faq-grid details");
-		faqItems.forEach((item) => {
-			item.addEventListener("toggle", () => {
-				if (!item.open) {
-					return;
-				}
-				faqItems.forEach((other) => {
-					if (other !== item) {
-						other.open = false;
-					}
-				});
-			});
-		});
-	</script>
-</body>
+      <div class="updates-notice">
+        <p>
+          Join our
+          <a
+            class="cta-link"
+            href="https://discord.gg/8FFPUr2ESP"
+            target="_blank"
+            >Discord server</a
+          >
+          for announcements.
+        </p>
+      </div>
+    </section>
+    <script>
+      const faqItems = document.querySelectorAll(".faq-grid details");
+      faqItems.forEach((item) => {
+        item.addEventListener("toggle", () => {
+          if (!item.open) {
+            return;
+          }
+          faqItems.forEach((other) => {
+            if (other !== item) {
+              other.open = false;
+            }
+          });
+        });
+      });
+    </script>
+  </body>
 </html>

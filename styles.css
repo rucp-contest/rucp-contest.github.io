@@ -130,6 +130,35 @@ a:hover {
 	color: #b44720;
 }
 
+.contest-banner {
+	background: #fff3cd;
+	color: #664d03;
+	border-bottom: 1px solid #ffecb5;
+	padding: 16px 20px;
+}
+
+.contest-banner-content {
+	max-width: 1060px;
+	margin: 0 auto;
+	line-height: 1.6;
+	overflow-wrap: anywhere;
+}
+
+.contest-banner p {
+	color: inherit;
+	margin: 0 0 8px;
+}
+
+.contest-banner a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.contest-banner ol {
+	margin: 0;
+	padding-left: 24px;
+}
+
 #landing {
 	padding-top: 80px;
 }
